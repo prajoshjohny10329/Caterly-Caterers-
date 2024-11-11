@@ -1106,7 +1106,7 @@ color: #aa8453;
     font-weight: 300;
 }
 .cappa-header .cappa-logo img {
-    width: 160px;
+    width: 80px;
 }
 .cappa-header .social li {
     display: inline-block;
@@ -1120,7 +1120,7 @@ color: #aa8453;
 }
 .cappa-header.scrolled {
     position: fixed;
-    padding: 25px 0;
+    padding: 15px 0;
     top: 0;
     background: #1b1b1b;
     -webkit-transition: .0s all ease;
