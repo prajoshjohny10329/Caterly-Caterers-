@@ -717,3 +717,17 @@ var form = $('.contact__form'),
         }
     });
     
+    function toggleText(index) {
+        // Get all header and child-text elements
+        const headers = document.querySelectorAll('.drop-down-header');
+        const childTexts = document.querySelectorAll('.drop-down-child-text');
+    
+        // Toggle the display of the specific child text based on index
+        if (childTexts[index].style.display === "none") {
+          childTexts[index].style.display = "block";
+          headers[index].classList.add("drop-down-open"); // Add open class for icon rotation
+        } else {
+          childTexts[index].style.display = "none";
+          headers[index].classList.remove("drop-down-open"); // Remove open class to reset icon
+        }
+      }
