@@ -3160,7 +3160,10 @@ hr {
 .services .content {
   width: 100%;
   padding: 30px;
-  background-color: #070707;
+  background-color: transparent;
+}
+.service-bg{
+    background-color: #030303;
 }
 .services .content .date {
   display: table-cell;
@@ -5671,4 +5674,9 @@ select {
 .desc>p{
     text-align: center;
     color: #f1b107;
+}
+@media screen and (max-width: 768px) {
+    .revers-div{
+        flex-direction: row-reverse;
+    }
 }
