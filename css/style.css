@@ -1318,6 +1318,7 @@ color: #f1b107;
     animation-delay: .4s;
 }
 .header .caption h1 {
+    text-shadow: 6px 4px 4px black;
     position: relative;
     margin-bottom: 20px;
     font-family: 'Gilda Display', serif;;
