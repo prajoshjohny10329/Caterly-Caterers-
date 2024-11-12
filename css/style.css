@@ -133,7 +133,7 @@ a:hover {
 }
 b {
     font-weight: 400;
-    color: #aa8453;
+    color: #f1b107;
 }
 
 /* text field */
@@ -174,7 +174,7 @@ textarea {
 input:focus,
 textarea:focus {
     border-bottom-width: 1px;
-    border-color: #aa8453;
+    border-color: #f1b107;
 }
 input[type="submit"],
 input[type="reset"],
@@ -218,7 +218,7 @@ input[type="submit"] {
     font-weight: 400;
     font-family: 'Gilda Display', serif;;
     text-transform: uppercase;
-    background: #aa8453;
+    background: #f1b107;
     color: #fff;
     padding: 8px 24px;
     margin: 0;
@@ -229,7 +229,7 @@ input[type="submit"] {
 .alert-success {
     background: transparent;
     color: rgba(255,255,255,0.5);
-    border: 1px solid #aa8453;
+    border: 1px solid #f1b107;
     border-radius: 0px;
 }
 
@@ -298,7 +298,7 @@ blockquote cite {
     line-height:1;
     margin-top: 22px;
     font-style:normal;
-    color: #aa8453;
+    color: #f1b107;
     font-weight: 400;
 }
 blockquote cite:before {
@@ -310,7 +310,7 @@ blockquote cite:before {
     height: 1px;
     border-top: 1px solid; 
     border-color:inherit;
-    color: #aa8453;
+    color: #f1b107;
 }
 
 
@@ -437,7 +437,7 @@ color: rgba(255,255,255,0.5);
 color: #222;
 }
 .color-5 {
-color: #aa8453;
+color: #f1b107;
 }
 
 /* star - white  */
@@ -507,15 +507,15 @@ color: #aa8453;
 /* ======= Selection style ======= */
 ::-webkit-selection {
     color: #fff;
-    background: #aa8453;
+    background: #f1b107;
 }
 ::-moz-selection {
     color: #fff;
-    background: #aa8453;
+    background: #f1b107;
 }
 ::selection {
     color: #fff;
-    background: #aa8453;
+    background: #f1b107;
 }
 
 
@@ -574,7 +574,7 @@ color: #aa8453;
     top: -1px;
     left: -1px;
     border: 1px solid transparent;
-    border-top: 1px solid #aa8453;
+    border-top: 1px solid #f1b107;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -616,8 +616,8 @@ color: #aa8453;
 }
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: #aa8453;
-    border: 1px solid #aa8453;
+    background: #f1b107;
+    border: 1px solid #f1b107;
 }
 
 
@@ -820,7 +820,7 @@ color: #aa8453;
     padding: 0 0 120px 0;
 }
 .section-padding h6 {
-    color: #aa8453;
+    color: #f1b107;
     font-size: 20px;
     margin-bottom: 20px;
 }
@@ -828,14 +828,14 @@ color: #aa8453;
     font-size: 15px;
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 400;
-    color: #aa8453;
+    color: #f1b107;
     text-transform: uppercase;
     position: relative;
     letter-spacing: 6px;
     margin-bottom: 5px;
 }
 .section-subtitle span {
- color: #aa8453;
+ color: #f1b107;
 }
 .section-title {
     font-size: 46px;
@@ -847,13 +847,13 @@ color: #aa8453;
     line-height: 1.25em;
 }
 .section-title span {
-    color: #aa8453;
+    color: #f1b107;
 }
 
 /* ======= Menu style ======= */
 .cappa-wrap {
     display: block;
-    background:#1b1b1b;
+    background:#000000cf;
     right: 0;
     z-index: 101;
     position: fixed;
@@ -949,7 +949,7 @@ color: #aa8453;
     width: 100%;
 }
 .cappa-menu ul li a.active {
-    color: #aa8453;
+    color: #f1b107;
 }
 .cappa-menu ul li a.active:after {
     height: 0px;
@@ -961,7 +961,7 @@ color: #aa8453;
     font-family: 'Barlow', sans-serif;
     font-size: 15px;
     font-weight: 400;
-    color: rgba(255,255,255,0.5);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     position: relative;
     padding: 0;
@@ -974,7 +974,7 @@ color: #aa8453;
     font-family: 'Barlow', sans-serif;
     font-size: 15px;
     font-weight: 400;
-    color: #aa8453;
+    color: #f1b107;
     text-decoration: none;
     position: relative;
     padding: 0;
@@ -1005,7 +1005,7 @@ color: #aa8453;
 .cappa-menu ul ul li:hover > a,
 .cappa-menu ul ul li.open > a,
 .cappa-menu ul ul li.active > a {
-    color: #aa8453;
+    color: #f1b107;
 }
 .cappa-menu ul ul ul li a {
     margin-left: 30px;
@@ -1015,7 +1015,7 @@ color: #aa8453;
 .cappa-menu ul li a em,
 .cappa-menu ul ul li a em {
     font-size: 10px;
-    background-color: #aa8453;
+    background-color: #f1b107;
     padding: 1px 6px;
     color: #fff;
     border-radius: 0px;
@@ -1032,7 +1032,7 @@ color: #aa8453;
 }
 
 .cappa-menu .active i {
-    color: #aa8453;
+    color: #f1b107;
 } 
 
 /* navigation footer */
@@ -1049,7 +1049,7 @@ color: #aa8453;
     font-size: 15px;
 }
 .cappa-menu-footer a {
-    color: #aa8453;
+    color: #f1b107;
 }
 .separator {
     width: 16%;
@@ -1086,7 +1086,7 @@ color: #aa8453;
 .cappa-menu-footer div.reservation .call span {
     font-family: 'Barlow', sans-serif;
     font-size: 21px;
-    color: #aa8453;
+    color: #f1b107;
 } 
 .cappa-menu-footer div.reservation .icon {
     position: absolute;
@@ -1094,17 +1094,17 @@ color: #aa8453;
     /* top: -50px; */
     width: 50px;
     height: 50px;
-    border: 1px solid #aa8453;
+    border: 1px solid #f1b107;
     -webkit-animation: pulse 2s infinite;
     animation: pulse 2s infinite;
     border-radius: 100%;
 }
 .cappa-menu-footer div.reservation a .icon i {
-    color: #aa8453;
+    color: #f1b107;
     font-size: 24px;
 }
 .cappa-menu-footer div.reservation a .icon:hover {
-    border: 1px solid #aa8453;
+    border: 1px solid #f1b107;
 }
 @media screen and (max-width: 768px) {
     .cappa-menu-footer div.reservation {
@@ -1196,7 +1196,7 @@ color: #aa8453;
 .cappa-nav-toggle i,
 .cappa-nav-toggle i:before,
 .cappa-nav-toggle i:after {
-    background: #b19777 !important;
+    background: #f1b107 !important;
 }
 .cappa-wrap-burger-wrap {
     position: relative;
@@ -1443,7 +1443,7 @@ hr {
 .owl-theme .owl-nav [class*=owl-]:hover {
     transform: scale(0.9);
     background: transparent;
-    border: 1px solid #aa8453;
+    border: 1px solid #f1b107;
     color: #fff;
 }
 @media screen and (max-width: 768px) {
@@ -1509,7 +1509,7 @@ hr {
     display: none
 }
 .slider-fade .owl-dots .owl-dot.active {
-    color: #aa8453
+    color: #f1b107
 }
 .slider-fade .owl-dot:before {
     counter-increment: dots;
@@ -1547,7 +1547,7 @@ hr {
 .header div.reservation .call span {
        font-family: 'Gilda Display', serif;
     font-size: 24px;
-    color: #aa8453;
+    color: #f1b107;
     letter-spacing: 1px;
 } 
 
@@ -1568,7 +1568,7 @@ hr {
     transform: rotate(90deg);
 }
 .header div.reservation a .icon:hover {
-    border: 1px solid #aa8453;
+    border: 1px solid #f1b107;
 }
 @media screen and (max-width: 768px) {
     .header div.reservation {
@@ -1612,8 +1612,8 @@ hr {
 }
 .slider .owl-theme .owl-dots .owl-dot.active span,
 .slider .owl-theme .owl-dots .owl-dot:hover span {
-    background: #aa8453;
-    border: 1px solid #aa8453;
+    background: #f1b107;
+    border: 1px solid #f1b107;
 }
 /* bounce */
 .header .arrow {
@@ -1640,7 +1640,7 @@ hr {
 }
 
 .header .arrow i:hover {
-    border: 1px solid #aa8453;
+    border: 1px solid #f1b107;
 }
 .header .arrow i:hover:after {
     -webkit-transform: scale(1.2);
@@ -1777,7 +1777,7 @@ hr {
 .kenburns-section div.reservation .call span {
        font-family: 'Gilda Display', serif;
     font-size: 24px;
-    color: #aa8453;
+    color: #f1b107;
     letter-spacing: 1px;
 } 
 .kenburns-section div.reservation .icon {
@@ -1797,7 +1797,7 @@ hr {
     transform: rotate(90deg);
 }
 .kenburns-section div.reservation a .icon:hover {
-    border: 1px solid #aa8453;
+    border: 1px solid #f1b107;
 }
 
 /* bounce */
@@ -1825,7 +1825,7 @@ hr {
 }
 
 .kenburns-section .arrow i:hover {
-    border: 1px solid #aa8453;
+    border: 1px solid #f1b107;
 }
 .kenburns-section .arrow i:hover:after {
     -webkit-transform: scale(1.2);
@@ -1964,10 +1964,10 @@ hr {
         
 }
 .slider-grid-bg .grid-con:hover .subtitle {
-    color: #aa8453;
+    color: #f1b107;
 }
 .slider-grid-bg .grid-con-active .subtitle {
-    color: #aa8453;
+    color: #f1b107;
 }
 .slider-grid-bg .title {
     display: block;
@@ -2009,7 +2009,7 @@ hr {
     border-radius: 100%;
 }
 .slider-grid-bg .arrow i:hover {
-    border: 1px solid #aa8453;
+    border: 1px solid #f1b107;
 }
 .slider-grid-bg .arrow i:hover:after {
     -webkit-transform: scale(1.2);
@@ -2101,7 +2101,7 @@ hr {
     margin-bottom: 10px;
 }
 .banner-header h5 a {
-    color: #aa8453;
+    color: #f1b107;
 }
 .banner-header p {
     font-size: 15px;
@@ -2109,7 +2109,7 @@ hr {
     color: #fff;
 }
 .banner-header p a {
-    color: #aa8453;
+    color: #f1b107;
 }
 /* author & date */
 .banner-header .author .avatar {
@@ -2136,7 +2136,7 @@ hr {
     margin-right: 20px
 }
 .banner-header .post .date-comment i {
-    color: #aa8453;
+    color: #f1b107;
     font-size: 18px;
     margin-right: 5px;
 }
@@ -2324,7 +2324,7 @@ hr {
 }
 .team .info .social a {
     font-size: 15px;
-    color: #aa8453;
+    color: #f1b107;
     margin: 0 5px;
 }
 .team .info .social a:hover {
@@ -2447,7 +2447,7 @@ hr {
     padding: 11px 30px;
 }
 .rooms1 .item .con .butn-light:hover {
-    border-color: #aa8453;
+    border-color: #f1b107;
 }
 /* line animation */
 .rooms1 .item .line {
@@ -2513,7 +2513,7 @@ hr {
 }
 .rooms1 .item .con .permalink a:hover,
 .rooms1 .item .con .permalink i:hover {
-color: #aa8453;
+color: #f1b107;
 }
 
 
@@ -2575,7 +2575,7 @@ color: #aa8453;
 .rooms2 .caption h3,
 .rooms2 .caption h3 a {
     font-size: 24px;
-    color: #aa8453;
+    color: #f1b107;
     margin-bottom: 0px;
 }
 .rooms2 .caption h3 span {
@@ -2627,7 +2627,7 @@ color: #aa8453;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 15px;
     background: transparent;
-    border: 1px solid #aa8453;
+    border: 1px solid #f1b107;
     text-transform: uppercase;
     letter-spacing: 3px;
     padding: 3px 12px;
@@ -2678,7 +2678,7 @@ hr.border-2 {
 .link-btn i {
     margin-left: 3px;
     font-size: 15px;
-    color: #aa8453;
+    color: #f1b107;
 }
 .link-btn:before {
     content: '';
@@ -2687,7 +2687,7 @@ hr.border-2 {
     bottom: 0;
     width: 0;
     height: 1px;
-    background-color: #aa8453;
+    background-color: #f1b107;
     -webkit-transition: all ease 0.4s;
     transition: all ease 0.4s
 }
@@ -2705,7 +2705,7 @@ hr.border-2 {
 }
 .reservations .icon span {
     font-size: 40px;
-    color: #aa8453;
+    color: #f1b107;
 }
 .reservations .icon.color-1 span {
     font-size: 40px;
@@ -2721,7 +2721,7 @@ hr.border-2 {
 }
 .reservations .text a {
     font-size: 24px;
-    color: #aa8453;
+    color: #f1b107;
     letter-spacing: -1px;
 }
 .reservations .text a.color-1 {
@@ -2865,7 +2865,7 @@ hr.border-2 {
 }
 .rooms3 .square2 h6 {
     position: relative;
-    color: #aa8453;
+    color: #f1b107;
     font-size: 15px;
     font-weight: 400;
     font-family: 'Barlow Condensed', sans-serif;
@@ -2887,7 +2887,7 @@ hr.border-2 {
     color: rgba(255,255,255,0.5);
 }
 .rooms3 .btn-line a:hover {
-    border-bottom: 1px solid #aa8453;
+    border-bottom: 1px solid #f1b107;
     color: rgba(255,255,255,0.5);
 }
 .rooms3 .square-flip .square2 {
@@ -2994,7 +2994,7 @@ hr.border-2 {
 }
 .page-list-icon span {
     font-size: 18px;
-    color: #aa8453;
+    color: #f1b107;
 }
 .page-list-text {
     margin-left: 15px;
@@ -3043,6 +3043,14 @@ hr.border-2 {
 
 
 /* ======= Facilties style ======= */
+.facilties{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .facilties .single-facility {
     background: transparent;
     padding: 30px 20px;
@@ -3072,7 +3080,7 @@ hr.border-2 {
 */
 .facilties .single-facility span {
   font-size: 45px;
-  color: #aa8453;
+  color: #f1b107;
   line-height: 1;
   margin-bottom: 20px;
   display: inline-block;
@@ -3118,7 +3126,7 @@ hr {
 }
 .room-facilities ul li i {
     margin-right: 10px;
-    color: #aa8453;
+    color: #f1b107;
     font-size: 20px;
 }
 
@@ -3156,7 +3164,7 @@ hr {
 .services .content .date h3 {
     font-size: 65px;
     font-weight: 500;
-    color: #aa8453;
+    color: #f1b107;
     margin-bottom: 0px;
 }
 .services .content .date h6 {
@@ -3183,7 +3191,7 @@ hr {
   font-weight: 400;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #aa8453;
+  color: #f1b107;
   padding-left: 40px;
   position: relative;
 }
@@ -3191,7 +3199,7 @@ hr {
   content: '';
   width: 30px;
   height: 1px;
-  background: #aa8453;
+  background: #f1b107;
   position: absolute;
   top: 50%;
   left: 0px;
@@ -3202,13 +3210,13 @@ hr {
 .services .content .info h6 {
     font-size: 15px;
     letter-spacing: 3px;
-    color: #aa8453;
+    color: #f1b107;
     font-family: 'Barlow Condensed', sans-serif;
     text-transform: uppercase;
     margin-bottom: 5px;
 }
 .services .content .info .tags {
-  color: #aa8453;
+  color: #f1b107;
 }
 @media screen and (max-width: 991px) {
     .services .content .cont h4 {
@@ -3251,14 +3259,14 @@ hr {
     height: 40px;
     line-height: 30px;
     border-radius: 50%;
-    border: 1px solid #aa8453;
+    border: 1px solid #f1b107;
     opacity: 0;
     -webkit-transition: all .5s;
     transition: all .5s;
 }
 .restaurant-menu .owl-theme .owl-nav [class*=owl-]:hover {
     background: transparent;
-    color: #aa8453;
+    color: #f1b107;
 }
 .restaurant-menu .bg-img .owl-theme .owl-nav [class*=owl-] {
     color: #fff;
@@ -3291,11 +3299,11 @@ hr {
     position: relative;
     background: transparent;
     padding: 15px;
-    border: 1px solid #aa8453;
+    border: 1px solid #f1b107;
 }
 .restaurant-menu .tabs-icon .owl-item.actived .item .icon,
 .restaurant-menu .tabs-icon .item.active .icon {
-    color: #aa8453;
+    color: #f1b107;
 }
 .restaurant-menu .restaurant-menu-content .cont {
     display: none;
@@ -3305,10 +3313,10 @@ hr {
 }
 .restaurant-menu .restaurant-menu-content .cont h5 {
     font-size: 20px;
-    color: #aa8453;
+    color: #f1b107;
     margin-bottom: 10px;
     text-align: left;
-    border-bottom: 1px dashed #aa8453;
+    border-bottom: 1px dashed #f1b107;
     line-height: 2em;
 }
 .restaurant-menu .restaurant-menu-content .cont p {
@@ -3497,10 +3505,10 @@ button.mfp-arrow {
     z-index: 0;
 }
 .play-button.color {
-    color: #aa8453;
+    color: #f1b107;
 }
 .play-button.color .circle-fill circle {
-    fill: #aa8453;
+    fill: #f1b107;
 }
 
 
@@ -3521,7 +3529,7 @@ button.mfp-arrow {
     transform: scale(0);
 }
 .video-wrapper .vid .vid-butn .icon {
-    color: #aa8453;
+    color: #f1b107;
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -3588,7 +3596,7 @@ button.mfp-arrow {
 .video-gallery-polygon:hover {
     background: #fff;
     border: 1px solid #fff;
-    color: #aa8453;
+    color: #f1b107;
 }
 /* testimonials style */
 .testimonials-box {
@@ -3752,8 +3760,8 @@ button.mfp-arrow {
     margin-bottom: 15px;
 }
 .ui-datepicker .ui-datepicker-header {
-    background: #aa8453;
-    border: #aa8453;
+    background: #f1b107;
+    border: #f1b107;
     color: #fff;
 }
 .ui-datepicker {
@@ -3777,8 +3785,8 @@ button.mfp-arrow {
 .ui-state-focus,
 .ui-widget-content .ui-state-focus,
 .ui-widget-header .ui-state-focus {
-    border: 1px solid #aa8453;
-    background: #aa8453;
+    border: 1px solid #f1b107;
+    background: #f1b107;
     font-weight: normal;
     color: #fff;
 }
@@ -3806,7 +3814,7 @@ button.mfp-arrow {
     border: none;
     margin: 0;
     width: 100%;
-    background: #aa8453;
+    background: #f1b107;
     color: #fff;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 15px;
@@ -3847,7 +3855,7 @@ button.mfp-arrow {
     pointer-events: none;
     font-family: "themify";
     font-size: 15px;
-    color: #aa8453;
+    color: #f1b107;
     line-height: 1;
 }
 .input1_inner input {
@@ -3887,7 +3895,7 @@ button.mfp-arrow {
     content: "\e64b";
     font-family: "themify";
     font-size: 10px;
-    color: #aa8453;
+    color: #f1b107;
     font-weight: normal;
     line-height: 15px;
 }
@@ -3950,11 +3958,11 @@ button.mfp-arrow {
     padding-left: 0;
 }
 .select2-container--default .select2-results__option[aria-selected=true] {
-    background: #aa8453;
+    background: #f1b107;
     color: #fff;
 }
 .select2-container--default .select2-results__option--highlighted[aria-selected] {
-    background: #aa8453;
+    background: #f1b107;
     color: #fff;
 }
 /* responsive */
@@ -4017,7 +4025,7 @@ button.mfp-arrow {
     font-size: 15px;
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 400;
-    color: #aa8453;
+    color: #f1b107;
     text-transform: uppercase;
     position: relative;
     letter-spacing: 6px;
@@ -4076,7 +4084,7 @@ button.mfp-arrow {
  font-family: 'Gilda Display', serif;
   font-size: 40px;
   margin-bottom: 20px;
-    color: #aa8453;
+    color: #f1b107;
 }
 .pricing-card .amount span {
     font-family: 'Barlow', sans-serif;
@@ -4103,7 +4111,7 @@ button.mfp-arrow {
     left: 0;
     transform: translateY(-50%);
     font-size: 15px;
-    color: #aa8453;
+    color: #f1b107;
 }
 .pricing-card .list li i.unavailable {
   color: rgba(255,255,255,0.5);
@@ -4197,14 +4205,14 @@ button.mfp-arrow {
 .position-icon {
     font-size: 15px;
     line-height: 1;
-    color: #aa8453;
+    color: #f1b107;
 }
 .position-icon i {
     display: inline-block
 }
 /* hover */
 .position:hover {
-    background-color: #aa8453;
+    background-color: #f1b107;
 }
 .position:hover .position-title,
 .position:hover .position-title span,
@@ -4286,7 +4294,7 @@ button.mfp-arrow {
     font-family: 'Gilda Display', serif;;
 }
 .accordion-box .block .acc-btn .count {
-  color: #aa8453;
+  color: #f1b107;
   padding-right: 3px;
 }
 .accordion-box .block .acc-btn:before {
@@ -4296,7 +4304,7 @@ button.mfp-arrow {
     height: 30px;
     font-size: 14px;
     font-weight: normal;
-    color: #aa8453;
+    color: #f1b107;
     line-height: 30px;
     content: "\e61a";
     font-family: "Themify";
@@ -4304,7 +4312,7 @@ button.mfp-arrow {
 }
 .accordion-box .block .acc-btn.active {
   background-color: #2b2b2b;
-    color: #aa8453;
+    color: #f1b107;
 }
 .accordion-box .block .acc-btn.active:before {
   color: "Themify";
@@ -4406,10 +4414,10 @@ button.mfp-arrow {
 .news .item .con .category a {
     margin-right: 5px;
     position: relative;
-    color: #aa8453;
+    color: #f1b107;
 }
 .news .item .con .category a:hover {
-    color: #aa8453;
+    color: #f1b107;
 }
 .news .item .con .category a:last-child {
     margin-right: 0;
@@ -4501,7 +4509,7 @@ button.mfp-arrow {
     font-weight: 400;
 	font-size: 12px;
     letter-spacing: 3px;
-    color: #aa8453;
+    color: #f1b107;
     font-family: 'Barlow', sans-serif;
     text-transform: uppercase;
 	margin-bottom: 5px;
@@ -4525,7 +4533,7 @@ button.mfp-arrow {
 	margin-bottom: 5px;
 }
 .news2 .post-cont .date a {
-    color: #aa8453;
+    color: #f1b107;
 }
 .news2 .post-cont i {
     color: #ccc;
@@ -4553,10 +4561,10 @@ button.mfp-arrow {
     color: rgba(255,255,255,0.5);
 }
 .news2-sidebar .widget ul li a.active {
-    color: #aa8453;
+    color: #f1b107;
 }
 .news2-sidebar .widget ul li a:hover {
-    color: #aa8453;
+    color: #f1b107;
 }
 .news2-sidebar .widget ul li:last-child {
     margin-bottom: 0;
@@ -4604,7 +4612,7 @@ button.mfp-arrow {
     right: 0;
     top: 0;
     background-color: transparent;
-    color: #aa8453;
+    color: #f1b107;
     border: 0;
     padding: 10px;
     cursor: pointer;
@@ -4623,7 +4631,7 @@ button.mfp-arrow {
 }
 .news2-sidebar ul.tags li:hover,
 .news2-sidebar ul.tags li a:hover {
-    background-color: #aa8453;
+    background-color: #f1b107;
     color: #fff;
 }
 /* pagination */
@@ -4657,13 +4665,13 @@ button.mfp-arrow {
     opacity: 1;
     text-decoration: none;
     background: transparent;
-    border: 1px solid #aa8453;
-    color: #aa8453;
+    border: 1px solid #f1b107;
+    color: #f1b107;
 }
 .news-pagination-wrap li a.active {
     background-color: transparent;
-    border: 1px solid #aa8453;
-    color: #aa8453;
+    border: 1px solid #f1b107;
+    color: #f1b107;
 }
 @media screen and (max-width: 768px) {
     .news-pagination-wrap {
@@ -4715,7 +4723,7 @@ button.mfp-arrow {
 }
 .post-repay {
     font-size: 14px;
-    color: #aa8453;
+    color: #f1b107;
     margin: 0;
     font-weight: 400;
 }
@@ -4738,7 +4746,7 @@ button.mfp-arrow {
     font-weight: 400;
     font-family: 'Barlow Condensed', sans-serif;
     text-transform: uppercase;
-    background: #aa8453;
+    background: #f1b107;
     color: #fff;
     padding: 13px 22px;
     margin: 0;
@@ -4957,7 +4965,7 @@ button.mfp-arrow {
     margin-bottom: 0px;
     position: relative;
     color: transparent;
-    -webkit-text-stroke: 1px #aa8453;
+    -webkit-text-stroke: 1px #f1b107;
     opacity: .8;
     line-height: 160px;
 }
@@ -4974,7 +4982,7 @@ button.mfp-arrow {
     width: 100%;
     padding: 11px 50px 11px 11px;
     background-color: transparent;
-    border: 1px solid #aa8453;
+    border: 1px solid #f1b107;
     border-radius: 0px;
     color: #fff;
     margin-bottom: 15px;
@@ -4984,7 +4992,7 @@ button.mfp-arrow {
     color: #fff;
 }
 .comming form button {
-    background-color: #aa8453;
+    background-color: #f1b107;
     padding: 6px 20px;
     border-radius: 0px;
     color: #fff;
@@ -5018,7 +5026,7 @@ button.mfp-arrow {
 	letter-spacing: 3px;
 }
 .go-back a:hover {
-	color: #aa8453;
+	color: #f1b107;
 }
 .go-back a span{
 	transition: all .5s;
@@ -5143,7 +5151,7 @@ button.mfp-arrow {
 }
 .footer-about-social-list a:hover {
   background-color: transparent;
-  color: #aa8453;
+  color: #f1b107;
 }
 .footer-explore-list li + li {
   margin-top: 3px;
@@ -5158,7 +5166,7 @@ button.mfp-arrow {
 }
 .footer-explore-list li a:hover {
   padding-left: 15px;
-  color: #aa8453;
+  color: #f1b107;
 }
 .footer-explore-list li a:before {
   position: absolute;
@@ -5168,7 +5176,7 @@ button.mfp-arrow {
   width: 6px;
   height: 6px;
   content: "";
-  background-color: #aa8453;
+  background-color: #f1b107;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   opacity: 0;
@@ -5224,13 +5232,13 @@ button.mfp-arrow {
   left: 0;
   right: 0;
   height: 1px;
-  background-color: #aa8453;
+  background-color: #f1b107;
   content: "";
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
 .footer-contact-mail:hover:before {
-  background-color: #aa8453;
+  background-color: #f1b107;
 }
 
 
@@ -5296,7 +5304,7 @@ select {
   transition: all 500ms ease;
 }
 .footer-bottom-copy-right a:hover {
-  color: #aa8453;
+  color: #f1b107;
 }
 
 
@@ -5366,10 +5374,10 @@ select {
     box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);
 }
 .progress-wrap::after {
-    color: #aa8453;
+    color: #f1b107;
 }
 .progress-wrap svg.progress-circle path {
-    stroke: #aa8453;
+    stroke: #f1b107;
 }
 .social-media{
     width: 100%;
@@ -5605,9 +5613,16 @@ select {
   padding: 10px 0px;
 }
 /* about section  */
+.common-section{
+    width: 100%;
+    padding: 80px 20px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .about-section{
     width: 100%;
-    /* padding: 100px 20px; */
     height: 100vh;
     background-color: black;
     display: flex;
