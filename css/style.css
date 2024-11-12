@@ -366,6 +366,7 @@ blockquote cite:before {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .bg-fixed {
     background-attachment: fixed;
 }
@@ -3132,6 +3133,9 @@ hr {
 
 
 /* ======= Services style ======= */
+.services{
+    background-color: black;
+}
 .services .img {
   position: relative;
     overflow: hidden;
@@ -3154,6 +3158,7 @@ hr {
 .services .content {
   width: 100%;
   padding: 30px;
+  background-color: #070707;
 }
 .services .content .date {
   display: table-cell;
@@ -5636,11 +5641,10 @@ select {
 .new-btn{
     font-size: 21px;
     background: black;
-    padding: 6px 19px;
-    border-radius: 17px;
-    border-bottom: solid #fff;
+    padding: 6px 8px;
+    border-bottom: double #5c5c5c;
     margin: 20px 0px 50px;
 }
 .new-btn:hover{
-    border-bottom: solid #f1b107;
+    border-bottom: double #f1b107;
 }
