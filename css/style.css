@@ -69,7 +69,7 @@ body {
     line-height: 1.75em;
     color: rgb(255, 255, 255);
     overflow-x: hidden !important;
-    background: #222;
+    background: #000000;
 }
 /* p {
     font-family: 'Barlow', sans-serif;
@@ -4922,11 +4922,11 @@ button.mfp-arrow {
 	height: auto;
 	position: relative;
 	background-blend-mode: overlay;
-	background: rgba(0,0,0,.4);
-	background-image: url("../images/services/concert-0.jpg");
-	background-size: cover;
+	background-image: url("../images/404/1.jpg");
+	background-size: contain;
 	background-position: center;
 	background-attachment: fixed;
+    background-repeat: no-repeat;
 	color: #fff;
 }
 @media (max-width: 767px){
