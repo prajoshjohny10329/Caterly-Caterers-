@@ -70,6 +70,7 @@ body {
     color: rgb(255, 255, 255);
     overflow-x: hidden !important;
     background: #000000;
+    cursor: url('../images/icon/cursus.png')  16 16, pointer;
 }
 /* p {
     font-family: 'Barlow', sans-serif;
