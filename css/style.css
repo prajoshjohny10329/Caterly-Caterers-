@@ -1122,7 +1122,7 @@ color: #aa8453;
     position: fixed;
     padding: 15px 0;
     top: 0;
-    background: #1b1b1b;
+    background: #040404;
     -webkit-transition: .0s all ease;
     -o-transition: .0s all ease;
     transition: .0s all ease;
@@ -5554,3 +5554,25 @@ select {
     }
 }
 
+/* for caterly Cateress  */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400&display=swap');
+
+.new-heading-style{
+    font-family: 'Playfair Display', serif;
+    font-size: 72px;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 1.25em;
+}
+.new-subheading {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: normal;
+}
+.new-body-text {
+    font-family: 'Georgia', serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.6em;
+}
