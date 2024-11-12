@@ -5664,7 +5664,11 @@ select {
     font-family: "Open Sans", sans-serif;
     font-style: italic;
     font-size: 25px;
-    color: #f1b107;
+    /* color: #f1b107; */
     font-weight: 600;
-
+    text-align: center;
+}
+.desc>p{
+    text-align: center;
+    color: #f1b107;
 }
