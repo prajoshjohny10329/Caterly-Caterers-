@@ -302,7 +302,8 @@ $(function () {
         loop: true,
         margin: 30,
         mouseDrag: true,
-        autoplay: false,
+        autoplay: true,
+        autoplayTimeout: 3000,
         dots: true,
         autoplayHoverPause: true,
         nav: false,
@@ -313,10 +314,10 @@ $(function () {
                 items: 1
             },
             600: {
-                items: 1
+                items: 2
             },
             1000: {
-                items: 2
+                items: 3
             }
         }
     });
