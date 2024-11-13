@@ -5693,3 +5693,8 @@ select {
   .fa-arrow-down{
     color: var(--root-color) !important;
   }
+  .why-use-a{
+    padding: 5px 8px;
+    border-bottom: solid .1px #3f3f3f;
+    font-weight: 700;
+  }
