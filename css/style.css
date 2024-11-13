@@ -5670,6 +5670,14 @@ select {
   margin-bottom: 20px;
   line-height: 1.25em;
 }
+.sub-heading-about{
+    font-family: "Open Sans", sans-serif;
+    color: var(--root-color) !important;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 10px;
+  line-height: 1.25em;
+}
 .name-head{
     font-family: "Open Sans", sans-serif;
     font-style: italic;
@@ -5702,4 +5710,13 @@ select {
   .why-use-a{
     padding: 3px 8px;
     font-weight: 700;
+  }
+  .flex-div-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .font-1{
+    font-family: "Open Sans", sans-serif !important;
+    font-style: italic !important;
   }
