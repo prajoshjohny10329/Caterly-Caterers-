@@ -321,6 +321,31 @@ $(function () {
             }
         }
     });
+
+    // core-values owlCarousel *
+    $('.core-value .owl-carousel').owlCarousel({
+        loop: true,
+        margin: 30,
+        mouseDrag: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        dots: true,
+        autoplayHoverPause: true,
+        nav: false,
+        navText: ["<span class='lnr ti-angle-left'></span>","<span class='lnr ti-angle-right'></span>"],
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            1000: {
+                items: 3
+            }
+        }
+    });
     
     // News owlCarousel *
     $('.news .owl-carousel').owlCarousel({
