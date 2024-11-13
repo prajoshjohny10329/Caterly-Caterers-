@@ -5697,7 +5697,6 @@ select {
     color: var(--root-color) !important;
   }
   .why-use-a{
-    padding: 5px 8px;
-    border-bottom: solid .1px #3f3f3f;
+    padding: 3px 8px;
     font-weight: 700;
   }
