@@ -3875,7 +3875,7 @@ button.mfp-arrow {
     font-size: 15px;
     color: rgba(255,255,255,0.5);
     padding: 19.5px 40px 20px 19.5px;
-    background: #222;
+    background: #0f0f0f96;
     border: none;
     box-shadow: none;
     border-radius: 0;
@@ -3887,7 +3887,7 @@ button.mfp-arrow {
 .input1_inner input:focus {
     outline: none;
     box-shadow: none;
-    background: #222;
+    background: #0f0f0f96;
     color: rgba(255,255,255,0.5) !important;
 }
 .select1_wrapper {
@@ -3912,7 +3912,7 @@ button.mfp-arrow {
 }
 .select2 {
     width: 100%;
-    background: #222;
+    background: #0f0f0f96;
     margin-bottom: 15px;
     border: 1px solid transparent;
 }
@@ -3955,7 +3955,7 @@ button.mfp-arrow {
 }
 .select2-results__option {
     padding: 10px 30px;
-    background: #222;
+    background: #0b0b0b;
     font-size: 15px;
     line-height: 20px;
     color: rgba(255,255,255,0.5);
@@ -4028,7 +4028,7 @@ button.mfp-arrow {
 /* booking form */
 .booking-box {
     position: relative;
-    background: #1b1b1b;
+    background: #0000009c;
     padding: 45px;
     margin-bottom: -75px;
 }
