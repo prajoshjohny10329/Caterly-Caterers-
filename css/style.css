@@ -5643,7 +5643,10 @@ select {
 .text-root{
     color: #f1b107 !important;
 }
-
+.new-btn-div{
+    display: flex;
+    justify-content: center;
+}
 .new-btn{
     font-size: 21px;
     background: black;
