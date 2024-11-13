@@ -5634,7 +5634,7 @@ select {
 }
 .about-section{
     width: 100%;
-    padding: 100px 20px;
+    padding: 100px 20px 10px;
     background-color: black;
     display: flex;
     justify-content: center;
