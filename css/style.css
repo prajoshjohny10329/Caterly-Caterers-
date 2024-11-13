@@ -409,7 +409,8 @@ blockquote cite:before {
     opacity: 0;
 }
 
-:root { scroll-behavior: auto; }
+:root { scroll-behavior: auto; 
+    --root-color: #f1b107;}
 
 .owl-carousel .owl-nav button.owl-next,Â 
 .owl-carousel .owl-nav button.owl-prev,Â 
@@ -5681,29 +5682,14 @@ select {
     }
 }
 
-
-/* toggle icon  */
-.drop-down-header {
-	font-size: 20px;
-	font-weight: bold;
-	cursor: pointer;
-	display: flex;
-	align-items: center;
-	margin: 10px 0;
+  .section-full{
+    width: 100%;
+    padding: 100px 20px;
   }
-
-  .drop-down-icon {
-	margin-right: 10px;
-	transition: transform 0.3s; /* Smooth rotation transition */
+  .drop-down-div{
+    display: flex;
+    align-items: center;
   }
-
-  .drop-down-child-text {
-	display: none; /* Hidden by default */
-	margin-left: 30px;
-	font-size: 16px;
-	color: #555;
-  }
-
-  .drop-down-open .drop-down-icon {
-	transform: rotate(90deg); /* Rotate icon when child text is shown */
+  .fa-arrow-down{
+    color: var(--root-color) !important;
   }
