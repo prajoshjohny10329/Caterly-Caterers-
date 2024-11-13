@@ -5723,11 +5723,13 @@ select {
   .core-values-div{
     /* background-repeat: no-repeat; */
     padding: 10px;
-    box-shadow: 2px 3px 5px 0px #ffffff1c;
+    /* box-shadow: 2px 3px 5px 0px #ffffff1c; */
+    margin: 10px 0px;
   }
   .core-values-div > h6{
     font-weight: 700;
     font-size: x-large;
     border-radius: 6px;
     margin: 16px 9px;
+    /* text-decoration: underline; */
   }
