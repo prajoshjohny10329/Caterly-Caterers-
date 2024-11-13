@@ -5720,3 +5720,13 @@ select {
     font-family: "Open Sans", sans-serif !important;
     font-style: italic !important;
   }
+  .core-values-div{
+    /* background-repeat: no-repeat; */
+    padding: 10px;
+    box-shadow: 2px 3px 5px 0px #ffffff1c;
+  }
+  .core-values-div > h6{
+    font-weight: 700;
+    font-size: x-large;
+    border-radius: 6px;
+  }
