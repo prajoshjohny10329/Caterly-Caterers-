@@ -5111,10 +5111,13 @@ button.mfp-arrow {
   position: relative;
   display: block;
 }
+.footer-logo-new{
+    width: 135px;
+}
 .footer-top {
   position: relative;
   display: block;
-  background-color: #222;
+  background-color: #000;
   padding: 90px 0 60px 0;
   z-index: 1;
 }
