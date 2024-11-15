@@ -5733,3 +5733,12 @@ select {
     margin: 16px 9px;
     /* text-decoration: underline; */
   }
+  .why-tvm{
+    padding: 10px;
+    box-shadow: 0px 1px 6px 0px #ffffff2b;
+    border-radius: 9px;
+    margin: 25px 0px 0px;
+  }
+  .font-2{
+    color: #d8d8d8 !important;
+  }
