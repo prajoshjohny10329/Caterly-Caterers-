@@ -5755,3 +5755,9 @@ select {
     background-size: contain;
     background-position: center;
   }
+  .hover-footer{
+    color: #fff !important;
+  }
+  .hover-footer:hover{
+    color: var(--root-color) !important;
+  }
