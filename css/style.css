@@ -5694,6 +5694,9 @@ select {
     .revers-div{
         flex-direction: row-reverse;
     }
+    .star-rating{
+        display: none;
+    }
 }
 
   .section-full{
