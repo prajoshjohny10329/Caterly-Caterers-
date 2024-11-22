@@ -5750,3 +5750,8 @@ select {
     color: #e0e0e0 !important;
     text-shadow: 5px 4px 5px black;
   }
+  .ushual-bgi{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
