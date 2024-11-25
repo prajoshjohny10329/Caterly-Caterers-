@@ -623,7 +623,7 @@ $(document).ready(function () {
         dots: true,
         margin: 0,
         autoplay: true,
-        autoplayTimeout: 5000,
+        autoplayTimeout: 2500,
         animateOut: 'fadeOut',
         nav: true,
         navText: ['<i class="ti-angle-left" aria-hidden="true"></i>', '<i class="ti-angle-right" aria-hidden="true"></i>'],
