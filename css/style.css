@@ -5694,9 +5694,6 @@ select {
     .revers-div{
         flex-direction: row-reverse;
     }
-    .star-rating{
-        display: none;
-    }
 }
 
   .section-full{
@@ -5760,4 +5757,7 @@ select {
   }
   .hover-footer:hover{
     color: var(--root-color) !important;
+  }
+  .star-rating{
+    display: none !important;
   }
