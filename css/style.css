@@ -5749,3 +5749,6 @@ select {
   .star-rating{
     display: none !important;
   }
+  .awards-div{
+    padding: 5px 15px;
+  }
