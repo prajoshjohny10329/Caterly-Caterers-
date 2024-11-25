@@ -9,6 +9,3 @@ Feast your eyes - gallery
 Celebrating our clients - testimonial 
 Our secret sauce - why us
 Let’s connect - contact
-
-
-add more content on vission

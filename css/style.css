@@ -5752,3 +5752,16 @@ select {
   .awards-div{
     padding: 5px 15px;
   }
+
+  /* photo frame  */
+  .parent-frame{
+    border: 18px solid white;
+    padding: 0px;
+    box-shadow:  2px 5px 0px 4px #47474791;
+    margin: 30px;
+  }
+  .child-frame{
+    border: 10px solid #ffffffd4;
+    padding: 20px;
+
+  }
