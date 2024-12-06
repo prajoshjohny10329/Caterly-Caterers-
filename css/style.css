@@ -5772,13 +5772,13 @@ select {
   }
 
   /* career  */
-  .carrer-div-p{
-    box-shadow: 0px 0px 5px #ffffff61;
-    padding: 16px;
-    border-radius: 9px;
-    margin-bottom: 20px;
-  }
-  .carrer-div-p>p{
-    padding: 0px;
-    margin: 0px;
-  }
+.carrer-btn-1{
+    width: 165px;
+  height: 37px;
+  background: #fff;
+  border-radius: 3px;
+}
+.carrer-btn-1:hover{
+ color: #fff;
+ background-color: var(--root-color);
+}
