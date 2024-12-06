@@ -5770,3 +5770,15 @@ select {
     border-radius: 12px;
     margin-bottom: 30px;
   }
+
+  /* career  */
+  .carrer-div-p{
+    box-shadow: 0px 0px 5px #ffffff61;
+    padding: 16px;
+    border-radius: 9px;
+    margin-bottom: 20px;
+  }
+  .carrer-div-p>p{
+    padding: 0px;
+    margin: 0px;
+  }
