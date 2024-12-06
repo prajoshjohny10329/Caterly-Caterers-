@@ -5763,5 +5763,10 @@ select {
   .child-frame{
     border: 10px solid #ffffffd4;
     padding: 20px;
-
+  }
+  .why-choose-us-parent{
+    box-shadow: 1px 1px 10px #fdfdfd57;
+    padding: 10px 15px;
+    border-radius: 12px;
+    margin-bottom: 30px;
   }
