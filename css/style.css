@@ -4678,6 +4678,9 @@ button.mfp-arrow {
         margin: 0;
         text-align: center;
     }
+    .why-tvm{
+        min-height: 0px;
+    }
 }
 
 
@@ -5726,7 +5729,7 @@ select {
     box-shadow: 0px 1px 5px 0px #ffffff1a;
     border-radius: 9px;
     margin: 25px 0px 0px;
-    
+    min-height: 400px;
     background-size: 315px;
     background-repeat: no-repeat;
     background-position: center;
@@ -5781,4 +5784,10 @@ select {
 .carrer-btn-1:hover{
  color: #fff;
  background-color: var(--root-color);
+}
+@media screen and (max-width: 768px) {
+    
+    .why-tvm{
+        min-height: 0px;
+    }
 }
