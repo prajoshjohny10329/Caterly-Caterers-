@@ -1,5 +1,8 @@
 reenter Award section heading and sub description
 
+hidden
+    *video promo
+    *award section
 
 
 
