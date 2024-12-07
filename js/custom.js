@@ -666,37 +666,38 @@ $("#preloader").fadeOut(700);
 //     $("#preloader").fadeOut(700);
 //     $(".preloader-bg").delay(700).fadeOut(700);
 // });
-$(window).on("load", function () {
-    // Array of slider images
-    var imagesToLoad = [
-        "https://prajoshjohny10329.github.io/Caterly-Caterers-/images/slider/slider-01.jpeg",
-        "https://prajoshjohny10329.github.io/Caterly-Caterers-/images/slider/slider-02.jpg",
-        "https://prajoshjohny10329.github.io/Caterly-Caterers-/images/slider/slider-03.jpg"
-    ];
-    
-    var imagesLoaded = 0;
 
-    // Loop through the images and check if they are fully loaded
-    for (var i = 0; i < imagesToLoad.length; i++) {
-        try {
-            var img = new Image();
-            img.onload = function () {
-                imagesLoaded++;
-                // If all images are loaded, fade out the preloader
-                if (imagesLoaded === imagesToLoad.length) {
-                    $("#preloader").fadeOut(700);
-                    $(".preloader-bg").delay(700).fadeOut(700);
-                }
-            };
-            console.log('imf');
+// $(window).on("load", function () {
+//     // Array of slider images
+//     var imagesToLoad = [
+//         "https://prajoshjohny10329.github.io/Caterly-Caterers-/images/slider/slider-01.jpeg",
+//         "https://prajoshjohny10329.github.io/Caterly-Caterers-/images/slider/slider-02.jpg",
+//         "https://prajoshjohny10329.github.io/Caterly-Caterers-/images/slider/slider-03.jpg"
+//     ];
+    
+//     var imagesLoaded = 0;
+
+//     // Loop through the images and check if they are fully loaded
+//     for (var i = 0; i < imagesToLoad.length; i++) {
+//         try {
+//             var img = new Image();
+//             img.onload = function () {
+//                 imagesLoaded++;
+//                 // If all images are loaded, fade out the preloader
+//                 if (imagesLoaded === imagesToLoad.length) {
+//                     $("#preloader").fadeOut(700);
+//                     $(".preloader-bg").delay(700).fadeOut(700);
+//                 }
+//             };
+//             console.log('imf');
             
-            img.src = imagesToLoad[i];
-        } catch (error) {
-            console.log("error", error);
+//             img.src = imagesToLoad[i];
+//         } catch (error) {
+//             console.log("error", error);
             
-        }
-    }
-});
+//         }
+//     }
+// });
 
 
 
