@@ -669,9 +669,9 @@ $(document).ready(function () {
 $(window).on("load", function () {
     // Array of slider images
     var imagesToLoad = [
-        "./images/slider/slider-01.jpeg",
-        "./images/slider/slider-02.jpg",
-        "./images/slider/slider-03.jpg"
+        "https://prajoshjohny10329.github.io/Caterly-Caterers-/images/slider/slider-01.jpeg",
+        "https://prajoshjohny10329.github.io/Caterly-Caterers-/images/slider/slider-02.jpg",
+        "https://prajoshjohny10329.github.io/Caterly-Caterers-/images/slider/slider-03.jpg"
     ];
     
     var imagesLoaded = 0;
