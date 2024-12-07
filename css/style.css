@@ -5772,6 +5772,7 @@ select {
     padding: 10px 15px;
     border-radius: 12px;
     margin-bottom: 30px;
+    min-height: 816px;
   }
 
   /* career  */
@@ -5788,6 +5789,9 @@ select {
 @media screen and (max-width: 768px) {
     
     .why-tvm{
+        min-height: 0px;
+    }
+    .why-choose-us-parent{
         min-height: 0px;
     }
 }
