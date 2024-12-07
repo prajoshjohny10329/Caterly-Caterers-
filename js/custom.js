@@ -659,13 +659,45 @@ $(document).ready(function () {
 
 
 // Preloader
-$("#preloader").fadeOut(700);
-	$(".preloader-bg").delay(700).fadeOut(700);
-	var wind = $(window);
+// $("#preloader").fadeOut(700);
+// 	$(".preloader-bg").delay(700).fadeOut(700);
+// 	var wind = $(window);
 // $(window).on("load", function () {
 //     $("#preloader").fadeOut(700);
 //     $(".preloader-bg").delay(700).fadeOut(700);
 // });
+$(window).on("load", function () {
+    // Array of slider images
+    var imagesToLoad = [
+        "./images/slider/slider-01.jpeg",
+        "./images/slider/slider-02.jpg",
+        "./images/slider/slider-03.jpg"
+    ];
+    
+    var imagesLoaded = 0;
+
+    // Loop through the images and check if they are fully loaded
+    for (var i = 0; i < imagesToLoad.length; i++) {
+        try {
+            var img = new Image();
+            img.onload = function () {
+                imagesLoaded++;
+                // If all images are loaded, fade out the preloader
+                if (imagesLoaded === imagesToLoad.length) {
+                    $("#preloader").fadeOut(700);
+                    $(".preloader-bg").delay(700).fadeOut(700);
+                }
+            };
+            console.log('imf');
+            
+            img.src = imagesToLoad[i];
+        } catch (error) {
+            console.log("error", error);
+            
+        }
+    }
+});
+
 
 
 
