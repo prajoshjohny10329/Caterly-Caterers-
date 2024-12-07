@@ -5,9 +5,6 @@ hidden
     *award section
 
 
-
-
-
 final
     *delete no folder
     *delete all files

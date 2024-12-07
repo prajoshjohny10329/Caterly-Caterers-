@@ -11,7 +11,6 @@ function validateEmail(email) {
 
   // Form validation logic
   document.getElementById("validationForm").addEventListener("submit", function (event) {
-    event.preventDefault(); // Prevent form submission
 
     // Get form values
     const email = document.getElementById("email").value;
@@ -38,7 +37,7 @@ function validateEmail(email) {
       isValid = false;
     }
 
-    if (isValid) {
-      alert("Form submitted successfully!");
+    if (!isValid) {
+      event.preventDefault(); // Prevent form submission only if validation fails
     }
   });
